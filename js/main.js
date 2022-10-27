@@ -259,14 +259,14 @@ $(document).ready(function () {
         $('.ralform__btn--hidden').trigger('click');
     });
 
-    // if ($('.jqzoom').length) {
+    if ($('.zoomimg').length) {
         $(".zoomimg").jqZoom({
-            selectorWidth: 40,
-            selectorHeight: 40,
+            selectorWidth: 70,
+            selectorHeight: 70,
             viewerWidth: 500,
             viewerHeight: 400
           });
-    // }
+    }
 
 
 
